@@ -1,5 +1,6 @@
 *{
     margin:0;
+    font-family: "Ubuntu", sans-serif;
 }
 nav{
     display:flex;
@@ -32,3 +33,4 @@ nav li:last-child a{
 nav li:last-child a:hover{
     color:black
 }
+ 
