@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Bite box</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>  
+        <nav> 
+            <img src="logo6.png.png" alt="logo" class="logo" width="180px">
+            
+            <ul>
+                <li><a href="Home.html"calss = "active">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Bitedeals.html">Bitedeals</a></li>
+                <li><a href="Cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+                <li><a href="Login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+                
+            </ul>   
+        </nav>
+
+    </header>
+
+    <section class="cart">
+       <table>
+        <thead>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th>Remove</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="item">
+                    <img src="burger.jpg" alt="">
+                    <div>
+                        <h4>Calssic Burger</h4>
+                        <p>Juicy grilled burger</p>
+                    </div>
+              </td>
+                <td>Rs 199</td>
+                <td>
+                    <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>Rs199</td>
+                <td><button class="remove">X</button></td>
+
+            </tr>
+
+             <tr>
+                <td class="item">
+                    <img src="pizza.png" alt="">
+                    <div>
+                        <h4>Paneer Pizza</h4>
+                        <p>Loaded with cheese</p>
+                    </div>
+              </td>
+                <td>Rs 500</td>
+                <td>
+                    <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>Rs500</td>
+                <td><button class="remove">X</button></td>
+            </tr>
+
+             <tr>
+                <td class="item">
+                    <img src="pasta.png" alt="">
+                    <div>
+                        <h4>Red sauce pasta</h4>
+                        <p>Cremy red sauce pasta</p>
+                    </div>
+              </td>
+                <td>Rs 250</td>
+                <td>
+                    <div class="qty-box">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>Rs250</td>
+                <td><button class="remove">X</button></td>
+
+            </tr>
+
+            <tr class="grand-total">
+                <td colspan="3">Grand Total</td>
+                <td>Rs 949</td>
+                <td><button>Proceed</button></td>
+            </tr>
+        </tbody>
+          </table>
+    </section>
