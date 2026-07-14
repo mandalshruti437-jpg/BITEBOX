@@ -9,7 +9,7 @@ nav{
   background-color:black;
    padding:15px 40px;
 }
-ul{
+header ul{
     display:flex;
     gap:10px;
     list-style:none;
@@ -255,7 +255,7 @@ tr{
 }
 .auth-box h2{
     margin-bottom:20px;
-    color:rbg(4, 4, 77)
+    color:rgb(4, 4, 77);
 }
 .auth-box input{
     width:100%;
@@ -390,4 +390,124 @@ border-color:red;
 .green{
     border-top: 5px solid green;
 } 
+footer{
+    background: black;
+    color: white;
+    padding: 40px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+}
+footer ul{
+    
+  list-style: none;
+}
+footer ul{
+    
+  list-style: none;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color:red;
+}
+.footer-bottom{
+    text-align:center;
+    margin-top: 30px;
+    border-top: 1px solid gray; 
+    font-size:15px;
+}
+.menu-btn{
+    font-size: 22px;
+    border:none;
+    color:black;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width:768px){
+    nav{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px 15px;
+    }
+    nav img{
+        width: 120px;
+        height: auto;
+    }
+    .menu-btn{
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 12px;
+        display: none;
+    }
+    nav ul.show{
+        display: block;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    nav ul li a{
+        display: block;
+        width:100%;
+        padding:10px;
+    }
+    .hero{
+        height:70vh;
+        text-align: center;
+        padding: 20px;
+    }
+    .hero h1{
+        font-size:22px;
+    }
+    .hero p{
+        flex-direction: column;
+        padding: 20px;
+        gap:20px;
+
+    }
+    .about{
+        padding:30px 15px;
+    }
+    .menu-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .deals-container{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .combo-container{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .category-icons{
+        justify-content: flex-start;
+        overflow-x:auto;
+        padding: 15px;
+    }
+    .icon-box{
+        min-width:80px;
+    }
+    .cart{
+        padding: 20px 10px;
+    }
+    table{
+        width:100%;
+    }
+    th,td{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .footer-container{
+        grid-template-columns:repeat(1,1fr);
+        text-align: center;
+    }
+
+}
+
    
